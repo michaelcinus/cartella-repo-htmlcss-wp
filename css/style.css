@@ -1,0 +1,109 @@
+/* general predisposition */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/legno.png");
+}
+
+/* full page container */
+.full-page{
+  width: 80%;
+  margin: 1% auto;
+}
+
+/* header */
+.logo-title{
+  height: 300px;
+  background-image: url("../img/foresta.jpg");
+  background-size: cover;
+  border: solid 10px white;
+  position: relative;
+}
+.title{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1{
+  text-align: center;
+  border: solid 2px white;
+  font-size: 3em;
+}
+
+.title h3{
+  padding-top: 30px;
+}
+
+nav{
+  /* padding: 20px; */
+  text-align: center;
+  background-color: #504741;
+}
+
+header li{
+  display: inline-block;
+  padding: 10px;
+}
+
+header a{
+  color: #999999;
+  text-decoration: none;
+}
+
+header li:hover{
+  cursor: pointer;
+  background-color: #5a3e30;
+}
+
+
+/* container main part */
+.container{
+  margin: 1% 0;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* columns */
+ aside{
+  width: 30%;
+  float: left;
+  border-radius: 1%;
+/* debug */
+ height: 300px;
+ background-color: #e9c46a;
+}
+
+ main{
+  width: 38%;
+  float: left;
+  border-radius: 1%;
+/* debug */
+ margin: 0 1%;
+ height: 400px;
+ background-color: #f4a261;
+}
+
+.widget{
+  width: 100%;
+  border-radius: 1%;
+/* debug */
+ height: 200px;
+}
+
+/* footer */
+footer{
+ height: 150px;
+/* debug */
+ background: #e76f51;
+}
