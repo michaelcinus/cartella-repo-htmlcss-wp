@@ -16,6 +16,10 @@ body{
 }
 
 /* header */
+header{
+  font-family: 'Maven Pro', sans-serif;
+}
+
 .logo-title{
   height: 300px;
   background-image: url("../img/foresta.jpg");
@@ -69,6 +73,7 @@ header li:hover{
 /* container main part */
 .container{
   margin: 1% 0;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .container::after{
@@ -81,8 +86,40 @@ header li:hover{
  aside{
   width: 20%;
   float: left;
-  border-radius: 1%;
 }
+
+/* left column */
+.aside-sx{
+  border-radius: 1%;
+  background-color: white;
+  position: relative;
+}
+
+.aside-sx img{
+  width: 20px;
+  height: 20px;
+}
+
+.aside-sx h2{
+  color: #7b7676;
+  display: inline-block;
+}
+
+.aside-sx ul{
+  padding: 3px;
+  list-style-type: none;
+}
+
+.aside-sx li{
+  padding: 5px;
+}
+
+.aside-sx a{
+  color: #388a3b;
+  text-decoration: none;
+}
+
+
 
 /* main */
  main{
@@ -94,6 +131,7 @@ header li:hover{
 }
 
 main h2{
+  color: #7b7676;
   padding: 15px;
 }
 
@@ -102,6 +140,7 @@ main p{
  font-size: 1.2em;
 }
 
+/* right columns */
 .widget{
   margin-bottom: 20px;
   width: 100%;
@@ -110,6 +149,7 @@ main p{
 }
 
 .widget h2{
+  color: #7b7676;
   padding: 15px;
 }
 
