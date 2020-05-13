@@ -55,8 +55,8 @@ nav{
 }
 
 header li{
-  display: inline-block;
   padding: 10px;
+  display: inline-block;
 }
 
 header a{
@@ -90,9 +90,8 @@ header li:hover{
 
 /* left column */
 .aside-sx{
-  border-radius: 1%;
+  border-radius: 5px;
   background-color: white;
-  position: relative;
 }
 
 .aside-sx {
@@ -108,7 +107,7 @@ header li:hover{
 .aside-sx h2{
   float: left;
   color: #7b7676;
-  display: inline-block;
+  padding-left: 5px;
 }
 
 .aside-sx ul{
@@ -126,11 +125,15 @@ header li:hover{
   text-decoration: none;
 }
 
+.aside-sx a:hover{
+  color: #d48c21;
+}
+
 /* main */
  main{
   width: 50%;
   float: left;
-  border-radius: 1%;
+  border-radius: 5px;
   margin:0 5%;
   background-color: white
 }
@@ -149,7 +152,7 @@ main p{
 .widget{
   margin-bottom: 20px;
   width: 100%;
-  border-radius: 1%;
+  border-radius: 5px;
   background-color: white;
 }
 
@@ -167,7 +170,7 @@ main p{
 footer{
  height: 150px;
  background: white;
- border-radius: 1%;
+ border-radius: 5px;
 }
 
 .footer-nome{
